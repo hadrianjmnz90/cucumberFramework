@@ -59,9 +59,6 @@ public class CheckoutPage extends BasePage{
                 By.xpath("//li[text()='" + billingStateName + "']")));
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", e);
         e.click();
-
-/*        Select select = new Select(wait.until(ExpectedConditions.visibilityOf(billingStateDropDown)));
-        select.selectByVisibleText(billingStateName);*/
         return this;
     }
 

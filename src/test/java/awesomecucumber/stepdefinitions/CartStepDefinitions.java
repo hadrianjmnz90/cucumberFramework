@@ -9,7 +9,6 @@ import org.testng.Assert;
 
 public class CartStepDefinitions {
     private final CartPage cartPage;
-
     public CartStepDefinitions(TestContext context){
         cartPage = PageFactoryManager.getCartPage(context.driver);
     }
