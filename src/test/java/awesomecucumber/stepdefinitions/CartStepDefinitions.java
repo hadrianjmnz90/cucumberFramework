@@ -1,4 +1,4 @@
-package awesomecucumber.stepdefinations;
+package awesomecucumber.stepdefinitions;
 
 import awesomecucumber.context.TestContext;
 import awesomecucumber.domainobjects.Product;

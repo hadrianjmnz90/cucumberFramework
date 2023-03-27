@@ -1,6 +1,6 @@
 Feature: Place an order
 
-  Scenario: using default payment option
+  Scenario: Place an order of 1 product
     Given I'm a guest customer
     And my billing details are
       | firstname | lastname | country            | address_line1     | city  | state | zip   | email              |

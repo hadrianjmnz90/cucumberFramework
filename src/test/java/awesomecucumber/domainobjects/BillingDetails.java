@@ -1,6 +1,13 @@
 package awesomecucumber.domainobjects;
 
 public class BillingDetails {
+    private String billingFirstName;
+    private String billingLastName;
+    private String billingAddressOne;
+    private String billingCity;
+    private String billingStateName;
+    private String billingZip;
+    private String billingEmail;
 
     public BillingDetails(String billingFirstName, String billingLastName, String billingAddressOne,
                           String billingCity, String billingStateName, String billingZip,
@@ -69,12 +76,4 @@ public class BillingDetails {
     public void setBillingEmail(String billingEmail) {
         this.billingEmail = billingEmail;
     }
-
-    private String billingFirstName;
-    private String billingLastName;
-    private String billingAddressOne;
-    private String billingCity;
-    private String billingStateName;
-    private String billingZip;
-    private String billingEmail;
 }

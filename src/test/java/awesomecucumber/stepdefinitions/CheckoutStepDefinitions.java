@@ -1,4 +1,4 @@
-package awesomecucumber.stepdefinations;
+package awesomecucumber.stepdefinitions;
 
 import awesomecucumber.constants.EndPoint;
 import awesomecucumber.context.TestContext;

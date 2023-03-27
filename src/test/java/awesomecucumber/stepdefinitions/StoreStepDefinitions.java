@@ -1,4 +1,4 @@
-package awesomecucumber.stepdefinations;
+package awesomecucumber.stepdefinitions;
 
 import awesomecucumber.apis.CartApi;
 import awesomecucumber.constants.EndPoint;

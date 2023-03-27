@@ -19,12 +19,9 @@ public class StorePage extends BasePage{
     }
 
     public void addToCart(String productName){
-        String raw = "a[aria-label='Add “" + productName + "” to your cart']";
-        byte[] bytes = raw.getBytes(StandardCharsets.UTF_8);
-        String utf8Encoded = new String(bytes, StandardCharsets.UTF_8);
-        By addToCartBtn = By.cssSelector(utf8Encoded);
+        String productAddToCartText = "a[aria-label='Add “"+productName+"” to your cart']";
+        By addToCartBtn = By.cssSelector(productAddToCartText);
         wait.until(ExpectedConditions.visibilityOf(titleTxt));
-//        wait.until(ExpectedConditions.visibilityOfAllElements(images));
         wait.until(ExpectedConditions.elementToBeClickable(addToCartBtn)).click();
         wait.until(ExpectedConditions.elementToBeClickable(viewCartLink)).click();
     }

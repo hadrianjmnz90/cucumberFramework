@@ -1,4 +1,4 @@
-package awesomecucumber.stepdefinations;
+package awesomecucumber.stepdefinitions;
 
 import awesomecucumber.constants.MyConstants;
 import awesomecucumber.context.TestContext;
