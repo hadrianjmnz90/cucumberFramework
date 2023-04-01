@@ -19,7 +19,7 @@ public class MyHooks {
     public void before(Scenario scenario){
         System.out.println("BEFORE: THREAD ID : " + Thread.currentThread().getId()+ "," +
                 "SCENARIO NAME: " + scenario.getName());
-        String browserForThisSession = System.getProperty("browser", "edge");
+        String browserForThisSession = System.getProperty("browser", "chrome");
         System.out.println("browserForThisSession: " + browserForThisSession);
         driver = DriverFactory.initializeDriver(browserForThisSession);
         context.driver = driver;
